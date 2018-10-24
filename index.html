@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PracticeLesson</title>
+</head>
+<body>
+    <main>
+        <article>
+            <!--Header for Create new User block-->
+            <header>
+                <h1>Create new User</h1>
+            </header>
+            <!--Content block for List of Users-->
+            <article>
+                <form>
+                    <!--Input Fields-->
+                     <aside>
+                         <label for="first_name">First Name: </label>
+                         <input id="first_name" type="text">
+                     </aside>
+                    <br>
+                    <aside>
+                        <label for="last_name">Last Name: </label>
+                        <input id="last_name" type="text">
+                    </aside>
+                    <br>
+                    <aside>
+                        <label for="age">Age: </label>
+                        <input id="age" type="text">
+                    </aside>
+                    <br>
+                    <aside>
+                        <label for="city">City: </label>
+                        <input id="city" type="text">
+                    </aside>
+                    <br>
+                    <aside>
+                        <label for="interests">List of interests: </label>
+                        <!--Drop-Down list choice-->
+                        <select id="interests">
+                            <option value="reading">Reading</option>
+                            <option value="popular_science">Popular Science</option>
+                            <option value="programming" selected>Programming</option>
+                        </select>
+                        or
+                        <!--Type your own Input field-->
+                        <input id="interest" type="text" placeholder="Type your own">
+                    </aside>
+                    <br>
+                    <!--Create user Button-->
+                    <button type="submit">Create</button>
+                </form>
+            </article>
+            <!--Header for List of Users block-->
+            <header>
+                <h1>List of Users</h1>
+            </header>
+            <!--Content block for List of Users-->
+            <article>
+                <table>
+                    <!--Set of table headers-->
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                            <th>Interests</th>
+                        </tr>
+                    </thead>
+                    <!--Table Data-->
+                    <tbody>
+                        <tr>
+                            <td>Bruce Wayne</td>
+                            <td>35</td>
+                            <td>Gotham</td>
+                            <td>Helping people</td>
+                            <td><button>X</button></td>
+                        </tr>
+                        <tr>
+                            <td>Bruce Wayne</td>
+                            <td>35</td>
+                            <td>Gotham</td>
+                            <td>Helping people</td>
+                            <td><button>X</button></td>
+                        </tr>
+                        <tr>
+                            <td>Bruce Wayne</td>
+                            <td>35</td>
+                            <td>Gotham</td>
+                            <td>Helping people</td>
+                            <td><button>X</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </article>
+    </main>
+</body>
+</html>
