@@ -1,0 +1,90 @@
+/*Global Styles*/
+
+    .button{
+        cursor: pointer;
+    }
+
+    .button.create-button{
+        border: 2px solid #018786;
+        border-radius: 20px;
+        width: 200px;
+        height: 30px;
+        background: white;
+        color: #018786;
+        font-weight: 700;
+        float: right;
+    }
+
+    .button.delete-button{
+        background: none;
+        border: none;
+        font-weight: 700;
+        padding: 10px;
+        size: 30px;
+    }
+
+    .button.delete-button:hover{
+        background: #f2f2f2;
+    }
+
+    .input-field {
+        border: 1px solid #018786;
+        border-radius: 5px;
+        height: 25px;
+        padding: 0 10px;
+    }
+
+    .input-field.wide {
+        display: block;
+        width: 50%;
+    }
+
+/*Table Styles*/
+
+    .users-list{
+        width: 100%;
+    }
+
+    .users-list .tr-center{
+        text-align: center;
+    }   /*for DELETE button*/
+
+    .users-list .tr-left{
+        text-align: left;
+    }   /*for all others T-data*/
+
+    .users-list thead tr{
+        background-color: #f2f2f2;
+        height: 45px;
+    }
+
+    .user-list tbody tr {
+        height: 45px;
+    }
+
+/*Page Styles*/
+
+main.ui {
+    display: flex;
+}
+
+main.ui > article {
+    display: inline-block;
+    width: 50%;
+    padding: 0 30px;
+}
+
+main.ui > article.data-create {
+    border-right: 1px solid #b2b2b2;
+}
+
+main.ui > article.data-table {
+    border-left: 1px solid #b2b2b2;
+}
+
+main.ui > article > header > h1 {
+    font-size: 25px;
+    color: #018786;
+    text-align: center;
+}
+
